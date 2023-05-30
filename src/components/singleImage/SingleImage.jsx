@@ -4,7 +4,7 @@ import "./singleImage.style.css";
 const SingleImage = (props) => {
   return (
     <div>
-      <img key={props.key} src={props.url} className="single-img" />
+      <img key={props.key} src={props.url} className="single-img" alt="cat" />
     </div>
   );
 };
