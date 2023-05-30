@@ -21,7 +21,7 @@ const GalleryContainer = () => {
   return (
     <div>
       <div className="top">
-        <h1>Cat Gallery</h1>
+        <h1 className="title">Cat Gallery</h1>
         <button onClick={onClickHandler} className="cat-btn">
           Get random Image
         </button>
