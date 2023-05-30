@@ -1,0 +1,40 @@
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 40px 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cat-btn {
+  min-width: 130px;
+  height: 40px;
+  color: #000000;
+  padding: 5px 10px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ffe566;
+  box-shadow: 0 5px #ffd819;
+}
+.cat-btn:hover {
+  box-shadow: 0 3px #ffd819;
+  top: 1px;
+}
+.cat-btn:active {
+  box-shadow: 0 0 #ffd819;
+  top: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+}
