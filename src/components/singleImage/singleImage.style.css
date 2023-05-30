@@ -10,3 +10,13 @@
   height: 40vh;
   transition: 1s;
 }
+
+@media screen and (max-width: 600px) {
+  .single-img {
+    width: 26vw;
+  }
+
+  .single-img:hover {
+    width: 40vw;
+  }
+}
