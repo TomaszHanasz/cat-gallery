@@ -8,7 +8,7 @@ const GalleryContainer = () => {
   useEffect(() => {
     if (galleryImage.length <= 7) {
       getCatImage();
-    }
+    } // eslint-disable-next-line
   }, [galleryImage.length]);
 
   const getCatImage = async () => {
